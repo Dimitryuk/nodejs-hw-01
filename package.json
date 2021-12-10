@@ -1,9 +1,21 @@
 {
-  "dependencies": {
+  "name": "nodeJSHW1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
     "nodemon": "^2.0.15"
   },
-  "scripts": {
-    "start": "node index",
-    "start:dev": "nodemon index"
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0"
   }
 }
